@@ -13,9 +13,9 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         { path: '/', element: < Home /> },
-        { path: '/contact', element: <StackDataStructureApp /> },
-        { path: '/login', element: <BubbleSortApp /> },
-        { path: '/signup', element: <PalindromeProject /> },
+        { path: '/stack', element: <StackDataStructureApp /> },
+        { path: '/bubble', element: <BubbleSortApp /> },
+        { path: '/palindrome', element: <PalindromeProject /> },
       ]
     }
   ]);
