@@ -33,7 +33,7 @@ export default function App() {
                         type="text"
                         value={searchValue}
                         placeholder="Enter word or number" onChange={searchHandler} />
-                    <p>{palindrome()}</p>
+                    <p className='palindrP'>{palindrome()}</p>
                 </div>
             </div>
         </>

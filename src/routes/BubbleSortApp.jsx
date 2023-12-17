@@ -37,7 +37,7 @@ function App() {
                     <textarea id="search"
                         type="text"
                         placeholder="Enter numbers separated by comma" onChange={bubbleSortHandler} ></textarea>
-                    <p>{bubble()}</p>
+                    <p className='bublP'>{bubble()}</p>
                 </div>
             </div>
         </>

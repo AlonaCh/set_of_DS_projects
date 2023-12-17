@@ -9,6 +9,7 @@ import Root from "./routes/Root";
 
 function App() {
 
+
   const router = createBrowserRouter([
     {
       path: '/', element: < Root />,
@@ -26,7 +27,7 @@ function App() {
     <>
       <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
