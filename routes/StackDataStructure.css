@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+  }
+  .inputContainer {
+    cursor: pointer;
+    color: violet;
+  }
+  .hearts {
+    font-size: 30px;
+  }
+  button {
+    border: 1px solid;
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: azure;
+    margin: 5px;
+  }
