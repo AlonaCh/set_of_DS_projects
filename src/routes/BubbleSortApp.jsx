@@ -31,7 +31,7 @@ function App() {
 
     return (
         <>
-            <div className="container">
+            <div className="containerBubble">
                 <div className="inputValue">
                     <h1>Bubble Sort App</h1>
                     <textarea id="search"
