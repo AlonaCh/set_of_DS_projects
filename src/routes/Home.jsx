@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import './Home.css';
 
 function Home() {
     return (
@@ -6,7 +7,7 @@ function Home() {
             <div className="box">
                 <h1>Take a look at my Data Structure App</h1>
                 <nav>
-                    <ul>
+                    <ul className="homeLinks">
                         <li><NavLink to="/stack">Stack DS App</NavLink></li>
 
                         <li><NavLink to="/bubble">Bubble sort App</NavLink></li>

@@ -1,0 +1,10 @@
+.homeLinks li  {
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    color:#272044;
+    font-size: 18px;
+    border: 1px solid pink;
+  }
+    

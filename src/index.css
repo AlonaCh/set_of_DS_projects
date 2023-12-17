@@ -48,7 +48,7 @@ header li {
 .header ul {
   background-color: #EFCEE4;
 }
-ul li a {
+nav ul li a {
   text-decoration: none;
   padding: 10px;
   display: inline-block;
