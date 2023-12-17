@@ -1,17 +1,20 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 
-function Home() {
+function Header() {
     return (
-        <main>
-            <h1>Take a look at my Data Structure App</h1>
+        <header>
+            <h1></h1>
             <nav>
                 <ul>
+                    <li>
+                        <NavLink to="/">Home</NavLink>
+                    </li>
                     <li><NavLink to="/stack">Stack DS App</NavLink></li>
                     <li><NavLink to="/bubble">Bubble sort App</NavLink></li>
                     <li><NavLink to="/palindrome">Palindrome App</NavLink></li>
                 </ul>
             </nav>
-        </main>);
+        </header>);
 }
 
-export default Home
+export default Header

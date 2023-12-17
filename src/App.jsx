@@ -1,9 +1,11 @@
-import { useState } from 'react';
+
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Home from './routes/Home/jsx';
+import Home from './routes/Home';
 import StackDataStructureApp from './routes/StackDataStructureApp';
 import BubbleSortApp from './routes/BubbleSortApp';
 import PalindromeProject from './routes/PalindromeProject';
+import ErrorPage from "./routes/ErrorPage";
+import Root from "./routes/Root";
 
 function App() {
 
